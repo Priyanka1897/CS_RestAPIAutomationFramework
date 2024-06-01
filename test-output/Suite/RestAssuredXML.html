@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  RestAssuredXML</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAssuredXML</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 31 16:13:11 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40274 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 1, ct, Carina, Torp, test1@yopmail.com, 4325678345, Test@123</td>
+<td></td>
+<td>6</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 6, Kb, Kate, Boisen, test6@yopmail.com, 4325678350, Test@128</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: St</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Cf</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 4, Cf, Christen, Friis, test4@yopmail.com, 4325678348, Test@126</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: jh</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: ct</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Kb</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Cf</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Vs</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: St</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 3, Vs, Vang, Skøtt, test3@yopmail.com, 4325678347, Test@125</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testGetUserData()'><b>testGetUserData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: ct</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 5, St, Stig, Thomsen, test5@yopmail.com, 4325678349, Test@127</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.testCreateUser()'><b>testCreateUser</b><br>Test class: api.testcases.UserTestDD<br>Parameters: 2, jh, Jeppe, Hertz, test2@yopmail.com, 4325678346, Test@124</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Kb</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: jh</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+<tr>
+<td title='api.testcases.UserTestDD.TestDeleteData()'><b>TestDeleteData</b><br>Test class: api.testcases.UserTestDD<br>Parameters: Vs</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTestDD@10e31a9a</td></tr>
+</table><p>
+</body>
+</html>
